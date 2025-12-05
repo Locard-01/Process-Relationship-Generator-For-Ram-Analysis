@@ -6,7 +6,7 @@ This script is designed to work with any CSV file, provided it contains process 
 ### Key Configuration
 The column names containing the PID and PPID data **must be specified manually** via the command-line arguments.
 
-### **Prerequisites** 
+### Prerequisites
 **! Important ! :** Before using the script, install the required Python packages listed in the `requirements.txt` file.
 
 ### How to Use the Script
