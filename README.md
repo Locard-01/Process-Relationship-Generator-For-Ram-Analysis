@@ -18,12 +18,13 @@ python .\ProcessRelationshipGenerator.py process.csv process.dot
 ```
 python ProcessRelationshipGenerator.py data.csv output.dot --process_col "ProcessName" --pid_col "ProcessID" --ppid_col "ParentProcessPID" --path_col "FilePath" --createtime_col "CreateTime" --exittime_col "ExitTime"
 ```
+#### To view or convert the DOT file online:
+Visit: https://dreampuf.github.io/GraphvizOnline/
+
 #### To convert the DOT file to an image using Graphviz:
 ```
 dot -Tpng process.dot -o process.png
 ```
-#### To view or convert the DOT file online:
-Visit: https://dreampuf.github.io/GraphvizOnline/
 
 
 
