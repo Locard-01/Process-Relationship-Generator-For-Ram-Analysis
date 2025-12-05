@@ -16,7 +16,7 @@ python .\ProcessRelationshipGenerator.py process.csv process.dot
 ```
 #### Command-line to generate the DOT file :
 ```
-python .\ProcessRelationshipGenerator.py process.csv process.dot --process_col "ProcessName" --pid_col "ProcessID" --ppid_col "ParentProcessPID"
+python ProcessRelationshipGenerator.py data.csv output.dot --process_col "ProcessName" --pid_col "ProcessID" --ppid_col "ParentProcessPID" --path_col "FilePath" --createtime_col "CreateTime" --exittime_col "ExitTime"
 ```
 
 
