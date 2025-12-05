@@ -23,9 +23,7 @@ python ProcessRelationshipGenerator.py data.csv output.dot --process_col "Proces
 dot -Tpng process.dot -o process.png
 ```
 #### To view or convert the DOT file online:
-```
 Visit: https://dreampuf.github.io/GraphvizOnline/
-```
 
 
 
