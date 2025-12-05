@@ -9,4 +9,4 @@ The column names containing the PID and PPID data **must be specified manually**
 ### Prerequisites
 **! Important:** Before using the script, install the required Python packages listed in the `requirements.txt` file.
 
-## How to Use the Script
+### How to Use the Script
