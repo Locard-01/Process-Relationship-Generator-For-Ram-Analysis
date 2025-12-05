@@ -7,12 +7,13 @@ This script is designed to work with any CSV file, provided it contains process 
 The column names containing the PID and PPID data **must be specified manually** via the command-line arguments.
 
 ### Prerequisites
-**! Important:** Before using the script, install the required Python packages listed in the `requirements.txt` file.
+**! Important !:** Before using the script, install the required Python packages listed in the `requirements.txt` file.
 
 ### How to Use the Script
 ```
-PS C:\Users\4N6\Desktop> python .\ProcessRelationshipGenerator.py -h
-
+python .\ProcessRelationshipGenerator.py -h
+```
+```
 Exécution 1 : Affichage de l'aide
 bash
 PS C:\Users\4N6\Desktop> python .\ProcessRelationshipGenerator.py -h
