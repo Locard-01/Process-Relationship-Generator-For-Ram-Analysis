@@ -3,7 +3,7 @@
 ### | Script Overview
 This script is designed to work with any CSV file, provided it contains process information, PID (Process ID), and PPID (Parent Process ID). It is therefore compatible with CSV output from tools like **Volatility**, **MemProcsFS**, and others.
 
-###  Key Configuration
+###  | Key Configuration
 The column names containing the PID and PPID data **must be specified manually** via the command-line arguments.
 
 ### | Prerequisites
