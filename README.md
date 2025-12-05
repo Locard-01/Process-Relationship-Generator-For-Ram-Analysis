@@ -10,7 +10,7 @@ The column names containing the PID and PPID data **must be specified manually**
 ### Prerequisites
 **! Important ! :** Before using the script, install the required Python packages listed in the `requirements.txt` file.
 
-### HOW TO
+### HOW TO USE
 #### Command-line to list avaible colums in CSV file :
 ```
 python .\ProcessRelationshipGenerator.py process.csv process.dot
