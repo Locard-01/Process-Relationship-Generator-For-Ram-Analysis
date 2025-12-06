@@ -4,6 +4,15 @@
 ### Script Overview
 This script is designed to work with any CSV file, provided it contains process information, PID (Process ID), and PPID (Parent Process ID). It is therefore compatible with CSV output from tools like **Volatility**, **MemProcsFS**, and others.
 
+You can configure the generation of process relationships with the following fields:
+- Process Name (Mandatory) 
+- Process ID (Mandatory) 
+- Parent Process ID (Mandatory) 
+- Process Status
+- File Path
+- Creation Time
+- Exit Time
+
 ### Key Configuration
 The column names containing the PID and PPID data **must be specified manually** via the command-line arguments.
 
@@ -11,11 +20,11 @@ The column names containing the PID and PPID data **must be specified manually**
 **! Important ! :** Before using the script, install the required Python packages listed in the `requirements.txt` file.
 
 ### HOW TO USE
-#### Command-line to list avaible colums in CSV file :
+#### Command-line to list avaible colums in CSV file:
 ```
 python .\ProcessRelationshipGenerator.py process.csv process.dot
 ```
-#### Command-line to generate the DOT file :
+#### Command-line to generate the DOT file:
 ```
 python ProcessRelationshipGenerator.py data.csv output.dot --process_col "ProcessName" --pid_col "ProcessID" --ppid_col "ParentProcessPID" --path_col "FilePath" --createtime_col "CreateTime" --exittime_col "ExitTime"
 ```
